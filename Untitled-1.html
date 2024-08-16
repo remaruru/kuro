@@ -10,23 +10,31 @@
 <body>
         <div class="flex items-center h-screen w-full bg-orange-100">
       <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
-        <h1 class="block w-full text-center text-grey-darkest mb-6">Feedback</h1>
+        <h1 class="block w-full text-center text-grey-darkest mb-6">NIGGAS IN PARIS</h1>
 
         <form class="mb-4 flex flex-wrap justify-between" id="form">
   
        
           <div class="flex flex-col w-full mb-4">
-            <label class="field-label" for="email">Name</label>
+            <label class="field-label" for="email">pangalan ng nigga</label>
             <input class="bg-green-100 px-2 py-1 outline-none" type="text" name="Name" id="email">
           </div>
           <div class="flex flex-col w-full mb-4">
-            <label class="field-label" for="password">Message</label>
+            <label class="field-label" for="password">message kay nigga</label>
             <textarea class="bg-green-100 px-2 py-1 outline-none" type="text" name="Message" id="Message"></textarea>
           </div>
 
 
           <input type="date" name="Time" id="">
-          <input type="checkbox" name="Check" value="true" id="">
+          <div class="flex flex-col w-full mb-4">
+            <label class="field-label">Attendance</label>
+            <label>
+              <input type="radio" name="Attendance" value="Present" id=""> Present
+            </label>
+            <label>
+              <input type="radio" name="Attendance" value="Absent" id=""> Absent
+            </label>
+          </div>
           <button class="bg-orange-300 px-3 py-1 text-white mx-auto" type="submit" id="submit">Submit</button>
         </form>
     </div>
@@ -35,7 +43,7 @@
 </body>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbz2WB13PBvrAjg3E3NWVmkYYOJnODIWp4jEETY26ZDHasPbbkfRE8Y0uXE3K70W7XiZGw/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw1GKp9ipOyyI0S38IrjTyrPu8RekFFYhMdlGPwMKHAi1QlPE-6iKwVi0U0stXU_cGb4A/exec'
     const form = document.querySelector('#form')
     const btn = document.querySelector('#submit')
 
